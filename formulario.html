@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="CSS/Audiocss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header><h1>Formularios</h1></header>
+    
+    <nav>
+        <ul>
+            <a href="holamundo.html"><li>Mi primera página</li></a>
+            <a href="tablas.html"><li>Tablas</li></a>
+            <a href="listas.html"><li>Listas</li></a>
+            <a href="links.html"><li>Imágenes</li></a>
+            <a href="index.html"><li>Audio</li></a>
+            <a href="video.html"><li>Video</li></a>
+            <a href="animacion.html"><li>Animación</li></a>
+            <a href="formulario.html"><li>Formularios</li></a>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Selección de formulario</h2>
+            <form>
+                <label> Nombre </label>  
+                <input type="text" id="idname" name="Nombre" placeholder="Inserte su nombre">
+                <input type="button" id="idboton" name="Enviar" value="enviar">
+            </form>
+        </section>
+            
+        <section>
+            <h2>Inserción de formulario con verificación</h2>
+            
+            <form>
+                <label>¿Qué música es tu preferida?</label><br><br>
+                <label>Pop</label>
+                <input type="checkbox" id="genero1" name="genero 1" value="pop"><br>
+                <label>Rock</label>
+                <input type="checkbox" id="genero2" name="genero 2" value="rock"><br>
+                <label>Funk</label>
+                <input type="checkbox" id="genero3" name="genero 3" value="funk"><br>
+                <label>Indie</label>
+                <input type="checkbox" id="genero4" name="genero 4" value="indie"><br><br>
+                <input type="button" id="idboton2" name="Enviar2" value="enviar">
+            </form>
+        </section>
+        
+        <section>
+            <h2>Inserción de formulario con botón de radio</h2>
+            
+            <form id="form1" name="form1" method="post" action="action_page.html">
+                <label>Género:</label><br><br>
+                <label for="masculino">Masculino: </label>
+                <input type="radio" id="masculino" name="gender" value="masculino"><br>
+                <label for="masculino">Femenino: </label>
+                <input type="radio" id="femenino" name="gender" value="femenino"><br><br>
+                <input type="submit" id="idboton3" name="Enviar2" value="enviar">
+            </form>
+        </section>
+        
+        <section>
+            <h2>Formulario de contacto</h2>
+            
+            <form id="form2" name="form2" method="post" action="file:///C:/Users/luise/OneDrive/Escritorio/Universidad/Nicias_shei/Yaret/Formulario/accion">
+                <label>Nombre: </label>
+                <input type="text" id="nombre1" name="contacto"><br><br>
+                <label>Teléfono: </label>
+                <input type="text" id="tel1" name="contacto"><br><br>
+                <label>correo electrónico </label>
+                <input type="email" id="email1" name="contacto"><br><br>
+                
+                <input type="submit" id="idboton4" name="Enviar2">
+            </form>
+        </section>
+            
+        <section>
+            <h2>Formulario de log-in</h2>
+            <form>
+                <label>Usuario:</label>
+                <input type="text" id="user" name="usuario" placeholder="Inserte su usuario"><br><br>
+
+                <label>Contraseña:</label>
+                <input type="password" id="pass" name="contraseña" placeholder="Inserte su contraseña"><br><br>
+
+                <input type="submit" id="idboton5" name="button" value="enviar">
+            </form>
+            <br><a href="#">¿Olvidaste tu contraseña?</a>
+        </section>
+            
+    
+    </main>
+    
+    <footer>Hecho por: Luis Enrique Reyes</footer>
+</body>
+</html>

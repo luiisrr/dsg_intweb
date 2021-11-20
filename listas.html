@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Listas</title>
+    <style type="text/css">
+        
+        header{
+            width: 1044px;
+            height: 30px;
+            background-color: #F56E51;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 60px;
+            text-align: center;
+            color: white;
+        }
+        
+        nav{
+            width: 1044px;
+            height: 40px;
+            background-color: #AED6D9;
+            margin: 0 auto;
+        }
+        
+        body{
+            background-color: #ffe7e6;
+        }
+        
+        section{
+            width: 1044px;
+            margin: 0 auto;
+            padding-top: 2px;
+            padding-bottom: 15px;
+            margin-top:20px;
+            background-color: white;
+            border-style: dashed;
+            border-color: #F56E51;
+        }
+        
+        h2{
+            width: 1024px;
+            text-align: center;
+        }
+        
+        footer{
+            width: auto;
+            height: 40px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background-color: #F56E51;
+            text-align: center;
+            color: white;
+        }
+        
+        nav{
+        width: 1024px;
+        height: 50px;
+        margin: 0 auto;
+        
+        }
+
+        nav ul{
+            list-style: none;
+            text-align: center;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+
+        nav li{
+            display: inline;
+            text-align: center;
+            margin-left: 20px;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:hover{
+            color: #F56E51;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Listas</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <a href="holamundo.html"><li>Mi primera página</li></a>
+            <a href="tablas.html"><li>Tablas</li></a>
+            <a href="listas.html"><li>Listas</li></a>
+            <a href="links.html"><li>Imágenes</li></a>
+            <a href="index.html"><li>Audio</li></a>
+            <a href="video.html"><li>Video</li></a>
+            <a href="animacion.html"><li>Animación</li></a>
+            <a href="formulario.html"><li>Formularios</li></a>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Lista desordenada/con viñeta</h2>
+            <ul type="square">
+                <li>Folders</li>
+                <li>Libretas</li>
+                <li>Plumas</li>
+                <li>Lápices</li>
+                <li>Tijeras</li>
+                <li>Colores</li>
+                <li>Hojas blancas</li>
+            </ul>
+        </section>
+            
+        <section>
+             <h2>Lista ordenada/numerada</h2>
+            <ol>
+                <li>1989</li>
+                <li>Reputation</li>
+                <li>Folklore</li>
+                <li>Evermore</li>
+                <li>Otros</li>
+                <li>Otros</li>
+                <li>Lover</li>    
+            </ol>
+        </section>
+        <section>
+            <h2>Lista mixta</h2>
+            
+            <ul type="square">
+                
+                <li>Continentes:
+                    <ol>
+                        <li>Oceanía</li>
+                        <li>América</li>
+                        <li>Europa</li>
+                        <li>Afríca</li>
+                        <li>Asia</li>
+                    </ol>
+                </li>
+                
+                <li>Estados:
+                    <ol>
+                        <li>Puebla</li>
+                        <li>Quintana Roo</li>
+                        <li>Guanajuato</li>
+                        <li>Torreón</li>
+                        <li>Yucatán</li>
+                        <li>Veracruz</li>
+                    </ol>
+                </li>
+                
+                <li>Tlaxcala no es un estado salu2</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Listas de definición</h2>
+            
+            <dl>
+                <dt>Resolución:</dt>
+                <dd><i>La resolución de pantalla es el número de píxeles que es capaz de mostrar una pantalla</i></dd><br>
+                <dt>Tamaño de pantalla:</dt>
+                <dd><i>El formato de pantalla es la proporción de los píxeles horizontales y verticales, y algunos de los más comunes son los 3:2, 4:3 y 16:10. Cuanto más diferencia hay entre el ancho y el alto, más aplastada o estirada será la pantalla.</i></dd><br>
+                <dt>Relación aspecto</dt>
+                <dd><i>La relación dimensional, a menudo llamada relación de aspecto, ratio, ratio de aspecto, proporción de aspecto o razón de aspecto (traducciones literales de la expresión en inglés aspect ratio) de una imagen, es la proporción entre su ancho y su altura. Se calcula dividiendo el largo entre la altura de la imagen visible en pantalla, y se expresa normalmente como «X:Y». </i></dd>  
+            </dl>
+        </section>
+        
+        <section>
+            <h2>Listas con cambio de viñetas</h2>
+            
+            <ul style="list-style-type:circle;">
+                <li>Reptiles
+                    <ul style="list-style-type:square;">
+                        <li>Cocodrilo</li>
+                        <li>Serpiente</li>
+                        <li>Iguana</li>
+                    </ul>
+                </li>
+                
+                <li>Mamíferos
+                <ul style="list-style-type:upper-roman;">
+                        <li>Manatí</li>
+                        <li>León</li>
+                        <li>Perro</li>
+                    </ul>
+                </li>
+                
+                <li>Anfibios
+                    <ol style="list-style-type:lower-roman;">
+                        <li>Rana</li>
+                        <li>Salamandra</li>
+                        <li>Ajolote</li>
+                    </ol>
+                </li>
+                
+                <li>Caninos
+                    <ul style="list-style-image: url('HTML/estrategia.png');">
+                        <li>Labrador</li>
+                        <li>Chihuahua</li>
+                        <li>Pasto alemán</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>Hecho por Luis Enrique Reyes Ramos</footer>
+</body>
+    
+</html>
